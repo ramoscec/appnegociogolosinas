@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color#d5d6d2; 
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:10px;
+    border: 2px solid rgb(252, 251, 251);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration: dashed;
+    color: #e8a230; /* Color de texto principal */
+}
+h2{
+   
+    color: #0b8b16; /* Color de texto principal */
+   
+}
+h3 {
+    color: #4a4a4a; /* Color de texto principal */
+}
+   
+p {
+    color: #666666; /* Color de texto secundario */
+}
+
+/* Estilos para un botón */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6ab04c; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4e8a34; /* Cambio de color al pasar el ratón por encima */
+}
+
+/* Estilos para el encabezado */
+header {
+    padding:30px;
+    background-image:url('imagenesproductos/fondo.jpg');
+    /*background-color: #e4ead1;*/
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+ 
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #4e8a34;
+}
+
+nav{
+    padding: 10px;
+    height: 50px;
+    background: #b5f0dc;
+    border-bottom: 1px black;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin:10px;
+    line-height: 30px;
+    
+    
+}
+.clearfix {
+    clear: both;
+}
+
+table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+table th, table td {
+        border: 1px solid #0e0d0d;
+        padding: 8px;
+        text-align: center;
+}
+    
+
+.article {
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(63, 61, 59);
+    padding-bottom: 10px;
+}
+#content {
+    float: left;
+    width:calc(80% - 80px);
+    min-height: 300px;
+    background-color: #cbf8d4;
+    padding: 40px;
+   
+    
+  
+
+}
+
+aside {
+    float: left;
+    width:calc(20% - 20px);
+    background-color: rgb(123, 198, 248);
+    color:black;
+    min-height: 360px;
+    padding:10px;
+    
+}
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #464646;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
